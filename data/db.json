@@ -1,0 +1,402 @@
+{
+    "Main": [
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "images",
+            "id": 1,
+            "isFav": false,
+            "titles": [
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 2
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "/src/assets/images.png",
+            "id": 2,
+            "isFav": false,
+            "titles": [
+                {
+                    "titl": "2 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "2 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 2
+                },
+                {
+                    "titl": "2 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "/src/assets/images.png",
+            "id": 3,
+            "isFav": false,
+            "titles": [
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 2
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "/src/assets/images.png",
+            "id": 4,
+            "isFav": false,
+            "titles": [
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "/src/assets/images.png",
+            "id": 5,
+            "isFav": false,
+            "titles": []
+        },
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "/src/assets/images.png",
+            "id": 6,
+            "isFav": false,
+            "titles": [
+                {
+                    "titl": "",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 2
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "/src/assets/images.png",
+            "id": 7,
+            "isFav": false,
+            "titles": [
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 2
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "title": "العناية بالأم والطفل",
+            "img": "/src/assets/images.png",
+            "id": 8,
+            "isFav": false,
+            "titles": [
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "images",
+                    "id": 1
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 2
+                },
+                {
+                    "titl": "1 العناية بالأم والطفل",
+                    "img": "/src/assets/images.png",
+                    "id": 3
+                }
+            ]
+        }
+    ],
+    "Promotions": [
+        {
+            "PromotionCards": [
+                {
+                    "img": "/src/assets/forgot.png",
+                    "title": "هيربال ايسنز شامبو ترميم بزيت الأرغان مغربي 400 مل ",
+                    "price": "50",
+                    "priceB": "60",
+                    "id": "500"
+                }
+            ]
+        },
+        {
+            "promotion": [
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                },
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                },
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                },
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                },
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                },
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                },
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                },
+                {
+                    "title": "طريقة الشحن",
+                    "data": [
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        },
+                        {
+                            "first": "true"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
