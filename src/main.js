@@ -9,7 +9,19 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 const vuetify = createVuetify({
-    components,
-    directives,
-  })
-createApp(App).use(vuetify).use(router).mount('#app')
+  components,
+  directives,
+})
+
+import { createI18n } from 'vue-i18n'
+import English from "./locale/en.json"
+import Arabic from "./locale/ar.json"
+const i18n = createI18n({
+  locale: "English",
+  messages: {
+    English: English,
+    Arabic: Arabic,
+  }
+})
+
+createApp(App).use(vuetify).use(i18n).use(router).mount('#app')

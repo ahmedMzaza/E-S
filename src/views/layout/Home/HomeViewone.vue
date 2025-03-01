@@ -1,14 +1,16 @@
 <template>
-  <NavBar />
-  <HeaderSwiper1 />
   <!-- Start Swiper Frist -->
-  <Categories1 />
-  <Products4 />
-  <div class="shap"></div>
-  <div class="shap shap2"></div>
-  <!-- End Swiper Frist -->
+  <NavBar1 />
 
+  <!-- Start Swiper Second -->
+  <HeaderSwiper2 />
+  <!-- End Swiper Second -->
   <!-- Start Cards -->
+  <Cards4 />
+  <Categories3 />
+  <Products4 />
+  <LastProduct1 />
+  <Offer />
   <div class="container">
     <div class="cards">
       <img src="../../../assets/Cardcontainor.webp" alt="" class="Fcard" />
@@ -39,7 +41,6 @@
         <img src="../../../assets/Cardcontainor.webp" alt="" class="Scard" />
       </div>
     </div>
-    <div class="shap3"></div>
     <div class="cards">
       <div class="card">
         <h2>العناية بالبشرة</h2>
@@ -68,25 +69,31 @@
   <!-- <a to="./dashboard.vue">ahmed</a> -->
 </template>
 <script>
-import NavBar from "../../../component/NavBar/NavBar.vue";
-
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Navigation } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css";
-import HeaderSwiper1 from "@/component/Home/Swipers/HeaderSwiper/HeaderSwiper1.vue";
+import NavBar1 from "@/component/NavBar/NavBar1.vue";
 import Categories1 from "@/component/Home/Swipers/CategoriesSwiper/Categories1.vue";
+import HeaderSwiper2 from "@/component/Home/Swipers/HeaderSwiper/HeaderSwiper2.vue";
+import Cards4 from "@/component/Home/Products/Cards4.vue";
+import Categories3 from "@/component/Home/Swipers/CategoriesSwiper/Categories3.vue";
 import Products4 from "@/component/Home/Products/Products4.vue";
+import Offer from "@/component/Home/Coments/Offer.vue";
+import LastProduct1 from "@/component/Home/Products/LastProduct1.vue";
 
 export default {
   components: {
-    Categories1,
-
     Swiper,
     SwiperSlide,
-    NavBar,
-    HeaderSwiper1,
+    Offer,
+    NavBar1,
+    Categories1,
+    HeaderSwiper2,
+    LastProduct1,
+    Cards4,
     Products4,
+    Categories3,
   },
 
   data() {
@@ -115,68 +122,10 @@ export default {
 };
 </script>
 <style scoped>
-.shap3 {
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  top: 750px;
-  right: 0;
-  background: transparent;
-  border: 3px solid var(--mainColor);
-  border-radius: 40px;
-  transition: 5.5s;
-  z-index: -10;
-  animation: shapAnim3 7s ease-in-out infinite alternate;
-}
-.shap2 {
-  top: 750px !important;
-  right: 75% !important;
-  width: 450px !important;
-  height: 450px !important;
-  border-color: green !important;
-  animation: shapAnim2 7s ease-in-out infinite alternate !important;
-}
-.shap {
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  top: 1150px;
-  z-index: -1;
-  right: 0;
-  background: transparent;
-  border: 3px solid var(--mainColor);
-  border-radius: 40px;
-  transition: 5.5s;
-  animation: shapAnim 7s ease-in-out infinite alternate;
-}
-@keyframes shapAnim {
-  from {
-    transform: translateY(150px) rotate(360deg);
-  }
-  to {
-    transform: translateY(0px) rotate(0deg);
-  }
-}
-@keyframes shapAnim2 {
-  from {
-    transform: translateY(0px) rotate(0deg);
-  }
-  to {
-    transform: translateY(150px) rotate(360deg);
-  }
-}
-
-@keyframes shapAnim3 {
-  from {
-    transform: translateY(150px) rotate(0deg);
-  }
-  to {
-    transform: translateY(0px) rotate(360deg);
-  }
-}
-body {
-  background-image: url(../../../assets/background2.jpg);
-}
+/* #app {
+  position: relative;
+  top: 100px;
+} */
 .container {
   padding: 20px 6%;
   box-sizing: border-box;
@@ -184,34 +133,6 @@ body {
 }
 .mySwiper {
   width: 100%;
-  height: 100%;
-}
-.swiper-1 .swiper-slide .text-content p {
-  text-align: end;
-}
-.swiper-1 .swiper-slide .text-content h1 {
-  font-size: 95px;
-}
-.swiper-1 .swiper-slide .text-content {
-  color: white;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  justify-content: end;
-  padding: 110px;
-}
-.swiper-1 .swiper-slide {
-  /* margin: 40px 0 0 0px; */
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  background-image: url(../../../assets/slider.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .swiper-slide div {

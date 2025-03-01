@@ -92,4 +92,9 @@ export default {
     width: 49% !important;
   }
 }
+@media (max-width: 400px) {
+  .Categories3 .container .card {
+    width: 100% !important;
+  }
+}
 </style>

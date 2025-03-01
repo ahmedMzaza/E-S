@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/layout/Home/HomeView.vue'
+import HomeView1 from '../views/layout/Home/HomeViewone.vue'
 import HomeView2 from '../views/layout/Home/HomeViewtwo.vue'
 import HomeView3 from '../views/layout/Home/HomeView3.vue'
 import HomeView4 from '../views/layout/Home/HomeView4.vue'
@@ -20,6 +21,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/home1',
+    name: 'home1',
+    component: HomeView1
   },
   {
     path: '/home3',

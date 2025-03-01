@@ -20,10 +20,7 @@
       class="mySwiper"
     >
       <SwiperSlide v-for="crad in Main" :key="crad.id">
-        <img
-          src="../../../../assets/swiper.jpg"
-          style="width: 100%; height: 350px"
-        />
+        <img src="../../../../assets/swiper.jpg" />
       </SwiperSlide>
     </Swiper>
   </div>
@@ -82,9 +79,9 @@ export default {
   flex-direction: column;
 }
 
-.swiper-slide div img {
+.swiper-slide img {
   width: 100%;
-  height: 350px;
+  height: 450px;
 }
 
 /* End Cards */
